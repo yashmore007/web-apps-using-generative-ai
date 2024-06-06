@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Tasks</h1>
+            <div class="task-list">
+                <!-- Task cards will be dynamically added here -->
+            </div>
+            <div class="new-task-input">
+                <input type="text" id="new-task-input" placeholder="Add a new task...">
+                <button id="add-task-btn">Send</button>
+            </div>
+        </div>
+    </div>
+  <script src="logic.js"></script>
+</body>
+</html>
